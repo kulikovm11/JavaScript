@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db7a069e-22aa-49da-aaca-eeaec0fbaea7" name="Changes" comment="Homework N1">
+    <list default="true" id="db7a069e-22aa-49da-aaca-eeaec0fbaea7" name="Changes" comment="Homework N1 Done">
+      <change afterPath="$PROJECT_DIR$/JS lesson 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS lesson 2/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS lesson1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS lesson1/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -31,14 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +56,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667289895794</updated>
-      <workItem from="1667289897362" duration="2409000" />
+      <workItem from="1667289897362" duration="2809000" />
+      <workItem from="1667292919196" duration="815000" />
+      <workItem from="1667413569109" duration="55000" />
+      <workItem from="1667463522880" duration="4613000" />
     </task>
     <task id="LOCAL-00001" summary="Homework N1">
       <created>1667291694658</created>
@@ -56,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667291694658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework N1 Done">
+      <created>1667292337392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667292337392</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework N1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework N1" />
+    <MESSAGE value="Homework N1 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework N1 Done" />
   </component>
 </project>

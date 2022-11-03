@@ -50,10 +50,11 @@
 
 
 
-//  let firstName = prompt('Your first name');
-//  let middleName = prompt('Your middle name');
-//  let lastName = prompt('Your last name');
-//  let age = prompt('Your age?')
-//
-//  let person = `${firstName} ${middleName} ${lastName} age:${age}`
-// console.log(person);
+ let firstName = prompt('Your first name');
+ let middleName = prompt('Your middle name');
+ let lastName = prompt('Your last name');
+ let age = prompt('Your age?')
+
+ let person = `${firstName} ${middleName} ${lastName}`
+console.log(person);
+console.log(+age);
