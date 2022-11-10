@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<style>
+<!--<style>-->
 
-    body{
-        display: flex;
-        justify-content: space-around;
-    }
+<!--    body{-->
+<!--        display: flex;-->
+<!--        justify-content: space-around;-->
+<!--    }-->
 
-    img{
-        height: 200px;
-        width: 200px;
-    }
+<!--    img{-->
+<!--        height: 200px;-->
+<!--        width: 200px;-->
+<!--    }-->
 
-    div{
-        width: 300px;
-        border: 1px solid black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+<!--    div{-->
+<!--        width: 300px;-->
+<!--        border: 1px solid black;-->
+<!--        display: flex;-->
+<!--        flex-direction: column;-->
+<!--        align-items: center;-->
+<!--    }-->
 
-    h3{
-        border-bottom: 1px solid aqua;
-    }
-</style>
+<!--    h3{-->
+<!--        border-bottom: 1px solid aqua;-->
+<!--    }-->
+<!--</style>-->
 <body>
 <script>
 
@@ -76,7 +76,7 @@
     // побудувати структуру по шаблону
     // Масив:
     //
-    //     let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+        let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
     //
     // ШАБЛОН:
     //     <ul>
@@ -92,16 +92,17 @@
     // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
     //
 
-    // for (const listOfItem of listOfItems) {
-    //
-    //     document.write(`
-    //     <ul>
-    //     <li>${listOfItem}</li>
-    //     </ul>
-    //     `)
-    // };
-    
-    
+
+    document.write('<ul>')
+
+    for (const listOfItem of listOfItems) {
+
+        document.write(`
+        <li>${listOfItem}</li>
+        `)
+    };
+
+    document.write('</ul>')
 
     
     // -----------------------------------------------
@@ -110,29 +111,29 @@
     // побудувати структуру по шаблону  Зробити адекватну стилізацію
     // Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон
     //
-    let products = [
-        {
-            title: 'milk',
-            price: 22,
-            image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
-        },
-        {
-            title: 'juice',
-            price: 27,
-            image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
-        },
-        {
-            title: 'tomato',
-            price: 47,
-            image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
-        },
-        {
-            title: 'tea',
-            price: 15,
-            image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
-        },
-    ];
-    //
+    // let products = [
+    //     {
+    //         title: 'milk',
+    //         price: 22,
+    //         image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+    //     },
+    //     {
+    //         title: 'juice',
+    //         price: 27,
+    //         image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+    //     },
+    //     {
+    //         title: 'tomato',
+    //         price: 47,
+    //         image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+    //     },
+    //     {
+    //         title: 'tea',
+    //         price: 15,
+    //         image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+    //     },
+    // ];
+    // //
     // ШАБЛОН
     // <div class="product-card">
     //     <h3 class="product-title">TITLE. Price - PRICE</h3>
@@ -142,26 +143,26 @@
     //
     //
     //
-    for (const product of products) {
-
-        document.write(`
-
-        <div class="product-card">
-          <h3 class="product-title">${product.title}. Price - ${product.price}</h3>
-          <img src="${product.image}" alt="${product.title}" class="product-image">
-
-
-
-
-
-       </div>
-
-
-
-
-        `)
-
-    }
+    // for (const product of products) {
+    //
+    //     document.write(`
+    //
+    //     <div class="product-card">
+    //       <h3 class="product-title">${product.title}. Price - ${product.price}</h3>
+    //       <img src="${product.image}" alt="${product.title}" class="product-image">
+    //
+    //
+    //
+    //
+    //
+    //    </div>
+    //
+    //
+    //
+    //
+    //     `)
+    //
+    // }
 
 
 
