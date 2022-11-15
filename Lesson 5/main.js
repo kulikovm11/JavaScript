@@ -12,10 +12,12 @@
 
 // function circle (radius){
 //     let result = Math.PI * Math.pow(radius,2)
-//     console.log(result);
+//     return result;
+//
 // }
 //
-// circle(5)
+// let x = circle(52)
+// console.log(x);
 
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
@@ -23,12 +25,13 @@
 
 // function cylinder (r,h){
 //     let result = 2 * Math.PI * r * (h+r);
-//     console.log(result);
+//     return result;
 //
 //
 // }
 //
-// cylinder(4,14)
+// let y = cylinder(4,14)
+// console.log(y);
 
 
 // - створити функцію яка приймає масив та виводить кожен його елемент v1
