@@ -222,45 +222,45 @@
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
 
 
-// class Sinderella {
-//
-//     constructor(name, age, footSize) {
-//         this.name = name;
-//         this.age = age;
-//         this.footSize = footSize;
-//
-//     }
-// }
-//
-// let Sinderella1 = new Sinderella('Olivia',20,36);
-// let Sinderella2 = new Sinderella('Emma',21,32)
-// let Sinderella3 = new Sinderella('Charlotte',19,30)
-// let Sinderella4 = new Sinderella('Amelia',25,31)
-// let Sinderella5 = new Sinderella('Ava',30,33)
-// let Sinderella6 = new Sinderella('Sophia',33,28)
-// let Sinderella7 = new Sinderella('Isabella',18,27)
-// let Sinderella8 = new Sinderella('Mia',26,29)
-// let Sinderella9 = new Sinderella('Evelyn',28,34)
-// let Sinderella10 = new Sinderella('Harper',35,40)
-//
-// let arrOfGirls = []
-// arrOfGirls.push(Sinderella1,Sinderella2,Sinderella3,Sinderella4,Sinderella5,Sinderella6,Sinderella7,Sinderella8,Sinderella9,Sinderella10)
-// console.log(arrOfGirls);
+class Sinderella {
+
+    constructor(name, age, footSize) {
+        this.name = name;
+        this.age = age;
+        this.footSize = footSize;
+
+    }
+}
+
+let Sinderella1 = new Sinderella('Olivia',20,36);
+let Sinderella2 = new Sinderella('Emma',21,32)
+let Sinderella3 = new Sinderella('Charlotte',19,30)
+let Sinderella4 = new Sinderella('Amelia',25,31)
+let Sinderella5 = new Sinderella('Ava',30,33)
+let Sinderella6 = new Sinderella('Sophia',33,28)
+let Sinderella7 = new Sinderella('Isabella',18,27)
+let Sinderella8 = new Sinderella('Mia',26,29)
+let Sinderella9 = new Sinderella('Evelyn',28,34)
+let Sinderella10 = new Sinderella('Harper',35,40)
+
+let arrOfGirls = []
+arrOfGirls.push(Sinderella1,Sinderella2,Sinderella3,Sinderella4,Sinderella5,Sinderella6,Sinderella7,Sinderella8,Sinderella9,Sinderella10)
+console.log(arrOfGirls);
 
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 
-// class Prince {
+class Prince {
+
+    constructor(name, age, foundShoe) {
+        this.name = name;
+        this.age = age;
+        this.foundShoe = foundShoe;
+    }
+}
 //
-//     constructor(name, age, foundShoe) {
-//         this.name = name;
-//         this.age = age;
-//         this.foundShoe = foundShoe;
-//     }
-// }
-//
-// let prince = new Prince('Lancelot', 40, 40)
-// console.log(prince);
-//
+let prince = new Prince('Lancelot', 40, 34)
+console.log(prince);
+
 // let arrPrince = []
 // arrPrince.push(prince);
 // console.log(arrPrince);
@@ -280,9 +280,7 @@
 
 
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
-// let newArr = []
-// newArr.push(arrPrince,arrOfGirls)
-// console.log(newArr);
+
 
 // let result = arrOfGirls.find((item)=>{
 //     for (const found of arrPrince) {
@@ -290,3 +288,8 @@
 //     }
 // })
 
+
+//v2
+
+let result2 = arrOfGirls.find((item)=>item.footSize === prince.foundShoe)
+console.log(result2.name);
