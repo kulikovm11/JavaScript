@@ -1,0 +1,11 @@
+@media screen and (min-width: 0) and (max-width: 1040px){
+.users-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 300px;
+    width: auto;
+
+
+}
+}
